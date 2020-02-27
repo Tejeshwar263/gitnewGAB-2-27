@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="hero">
+        <header class="header">
+            
+                <a href="" class="log-gab2020"><img src="https://globalazure.net/portals/0/images/GlobalAzure2020-logo-lg-transp-250x193.png" alt="global azure image"></a>
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon" onclick="lockScroll()"></span></label>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Agenda</a></li>
+                <li><a href="">Sponsers</a></li>
+                <li><a href="">Organisers</a></li>
+                <li><a href="">venue</a></li>
+                <li><a href="">Past Event</a></li>
+            </ul>
+        </header>
+
+        <div class="navbar-container">
+            <ul>
+                <li class="nav-link">
+                    <a href="#">Home
+                    </a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Agenda</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link">
+                    <a href="#">sponsers</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link">
+                    <a href="#">organisers</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link active-link">
+                    <a href="#">Venue</a>
+                    <div class="underline"></div>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Past event</a>
+                    <div class="underline"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-background">
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="gab-logo">
+            <img src="https://globalazure.net/portals/0/images/GlobalAzure2020-logo-lg-transp-250x193.png" alt="">
+        </div>
+    <div class="main-content-area">
+        <div class="main-content-heading">
+            <p id="GA-heading">Global <span>Azure</span> <span id="Year">2020</span></p>
+            <p id="GA-venue-heading">@ValueMomentum Towers</p>
+        </div>
+    </div>
+
+    <div class="countdown-timer">        
+            <p>25<sup>th</sup>April,2020 9:30 AM - 6:00 PM</p>
+            <ul>
+              <li><span id="days"></span>days</li>
+              <li><span id="hours"></span>Hours</li>
+              <li><span id="minutes"></span>Minutes</li>
+              <li><span id="seconds"></span>Seconds</li>
+            </ul>
+    </div>   
+    
+    <div class="register-btn-area">
+        <button class="register-btn"><a href="">Register Today</a></button>
+    </div>
+    
+    </section>
+
+    <!--start of About the event section-->
+    <section id="about-event">
+        <div class="about-event-container">
+            <div class="about-event-title">
+                <h2> About the Event</h2>
+                <div class="underline"></div>
+                <p> Get ready to learn about Azure and Cloud Computing! from the industry experts</p>
+                <p>On the event day we are offering</p>
+            </div>
+            <div class="event-details">
+                <div class="event-row1">
+                    <div class="event-session">
+                        <i class="fa fa-cloud fa-2x"></i>
+                        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F299-2994956_azure-logo-microsoft-azure-logo-svg-hd-png.png&imgrefurl=https%3A%2F%2Fwww.kindpng.com%2Fimgv%2FiwThxxw_azure-logo-microsoft-azure-logo-svg-hd-png%2F&docid=TaPGt0F9nZ1W9M&tbnid=3bcnhVcbb2LDSM%3A&vet=1&w=860&h=711&itg=1&bih=937&biw=1920&ved=2ahUKEwj_lPL6xc7nAhXYIbcAHTUDDf8QxiAoAHoECAEQFA&iact=c&ictx=1" alt="">
+                        
+                    </div>
+                    <div id="content-dds">
+                        <h2> Deep Dive Sessions</h2>
+                        <p>One full day of deep dive sessions on Azure for Developers and IT Pro's delivered by the experts to get you started on complex topics like Media Streaming, Mobile Services, ALM, PowerShell and IoT</p>
+                    </div>
+
+                </div>
+
+                <div class="event-row2">
+                    <div class="event-registration">
+                        <i class="fa fa-inr" aria-hidden="true"></i>
+                    </div>
+                    <div id="content-fr">
+                        <h2> Free Registration</h2>
+                        <p>Entry to this event is totally free! What more! There are lot of SWAGs from our sponsors!</p>
+                    </div>
+
+                </div>
+
+                <div class="event-row3">
+                    <div class="event-discussion">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div id="content-de">
+                        <h2>Discuss with Experts</h2>
+                        <p>Have questions, need to discuss your technical issues, or looking for some advise, do attend to speak to the experts</p>
+                    </div>
+
+                </div>
+        </div>
+
+        </div>   
+
+    </section>    
+
+    
+    <section class="timeline">
+        <div class="agenda-heading">
+            <h2>Agenda</h2>
+        </div>
+        <div class="underline"></div>   
+        <div class="agenda-track-btn">
+            <button id="track1-btn" onclick="track1btnclick()">Track 1</button>
+            <button id="track2-btn" onclick="track2btnclick()">Track 2</button>
+            <button id="track3-btn" onclick="track3btnclick()">Track 3</button>
+        </div>
+        <div class="track1">
+          <ul>
+              <li>
+                  <div>
+                  <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+              <li>
+                  <div>
+                      <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                  </div>
+              </li>
+          </ul>
+      </div>
+
+      <div class="track2">
+        <ul>
+            <li>
+                <div>
+                <img src="" alt=""> track2 At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="track3">
+        <ul>
+            <li>
+                <div>
+                <img src="" alt=""> track3 At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="" alt=""> At vero eos et accusamus et iusto odio dignissimos ducimus  blanditiis praesentium
+                </div>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+    <section id="speakers-section">
+        <h2 id="speakers-heading"> Our Speakers</h2>
+        <div class="underline"></div>
+        <div class="speakers">
+            <div class="speaker">
+                <div class="speaker-main" id="speaker1-main">
+                    <br>
+                    <div class="speaker-image"><img src="circle-cropped.png" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p>
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker1"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+
+            <div class="speaker">
+                <div class="speaker-main" id="speaker2-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker2"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+            
+
+            <div class="speaker">
+                <div class="speaker-main" id="speaker3-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker3"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+
+            <div class="speaker">
+                <div class="speaker-main" id="speaker4-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker4"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+
+            <div class="speaker">
+                <div class="speaker-main" id="speaker5-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker5"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+            <div class="speaker">
+                <div class="speaker-main" id="speaker6-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker6"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+            <div class="speaker">
+                <div class="speaker-main" id="speaker7-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker7"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+            <div class="speaker">
+                <div class="speaker-main" id="speaker8-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker8"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+            <div class="speaker">
+                <div class="speaker-main" id="speaker9-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker9"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+
+            <div class="speaker">
+                <div class="speaker-main" id="speaker10-main">
+                    <br>
+                    <div class="speaker-image"><img src="" alt=""></div>
+                    <h3>John Doe</h3>
+                    <p class="speaker-info1">CEO & Founder, Example</p>
+                    <p class="speaker-info2">Harvard University</p> 
+                    <div  class= "info-icon">
+                        <!--<a href="#"><i class="fa fa-dribbble"></i></a> 
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a> 
+                        <a href="#"><i class="fa fa-linkedin"></i></a> -->  
+                        <i class="fa fa-info fa-1x block" onclick="off(this)"></i>
+                    </div>
+                </div>
+                    
+                    <div class="info">
+                        <div class="info-speaker10"> 
+                            <i class="fa fa-angle-down fa-2x block" onclick="on(this)"></i>
+                        <p>Tech enthusiast with keen interest in Cloud platforms. Believes Azure has already been a disruptive technology and it is only going to grow further. Started cloud journey around 5 years back, building Azure based solution for a Retail client. Likes to be abreast on latest developments in Azure and tech-landscape trends in general.</p>
+                        <p>Find me on:</p>
+                        <a class="link" href="https://twitter.com/Masquetina/" target="_blank"><i class="fa fa-linkedin fa-2x social"></i></a>
+                        </div>
+                        
+                    </div>
+            </div> 
+             
+        </div>
+        
+
+        <div class="Contributors">
+            <h2 class="contributors-heading">Contributors</h2>
+            <div id="contributor1">
+                <img src="Deepak-Rajendran-s.png" alt="">
+                <p>loremm ipsumm</p>
+            </div>
+
+            <div id="contributor2">
+                <img src="Deepak-Rajendran-s.png" alt="">
+                <p>lorem ipsum</p>
+            </div>
+
+            <div id="contributor3">
+                <img src="Deepak-Rajendran-s.png" alt="">
+                <p>lorem ipsum</p>
+            </div>
+
+            <div id="contributor4">
+                <img src="Deepak-Rajendran-s.png" alt="">
+                <p>lorem ipsum</p>
+            </div>
+
+            <div id="contributor5">
+                <img src="" alt="">
+                <p>lorem ipsum</p>
+            </div>
+
+
+        </div>        
+    </section>
+
+    <section id="event-location">
+        <h2 id="event-venue-heading">Venue</h2>
+        <div class="underline"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.789660031166!2d78.329900315299!3d17.421879106394044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90d4dc380055%3A0x342c5b7d4a975489!2sValueMomentum!5e0!3m2!1sen!2sin!4v1582531274928!5m2!1sen!2sin" width="340" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div class="venue-info">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <h3 style="font-weight: 300;"> ValueMomentum Towers</h3>
+            <h4 style="font-weight: 100;">Plot No 36 & 37, Financial District, Nanakram Guda, Gachibowli, Hyderabad, Telangana 500032</h4>
+        </div>
+    </section>
+
+    <section id="sponsers">
+        <div class="sponsers-heading">
+            <h2>Our Sponsers</h2>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>

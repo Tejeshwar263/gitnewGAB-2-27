@@ -1,0 +1,1085 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  box-sizing: border-box;}
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat' !important;  
+    overflow-x: hidden;
+    
+
+}
+.hero{  
+    background-color: #005091;
+    height: 480px;
+    background-image: url('Charminar_Hyderabad_1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-container{
+display: none;
+}
+
+
+
+
+
+
+.log-gab2020 img{
+    height: 48px;
+}
+
+.log-gab2020{
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px 0px 10px;
+    position: fixed;
+    z-index: 1;
+
+}
+.nav-background{
+    position: fixed;
+    height:60px;
+    width: 100%;
+    background-color: rgba(26, 25, 25, 0.299);
+}
+.header ul{
+    margin: 60px 0px 0px 0px ;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    
+}
+.header ul li a{
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.header .menu{
+    clear:both;
+    height: 0vh;
+    transition:height .2s ease-out ;
+    transition: background-color .2s ease-out;
+    
+}
+
+.header .menu-icon{
+    
+    padding: 28px 20px;
+    position: fixed;
+    float: right;
+    left: 85%;
+    z-index: 1;
+}
+
+.header .menu-icon .nav-icon{
+    background: white;
+    display: block;
+    height: 2px;
+    width: 20px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before{
+    background: white;
+    content:"";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 6px;
+
+}
+
+.header .menu-icon .nav-icon:after{
+    background: white;
+    content:"";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -6px;
+
+}
+
+.header .menu-btn{
+    display: none;
+}
+
+.header .menu-btn:checked ~ .menu{
+    height: 100vh;
+    background-color:rgba(34, 32, 32,0.89);
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+    
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top: 0;
+    
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+    
+}
+
+.gab-logo{
+    display: none;
+}
+
+.lock-scroll {
+    overflow: hidden;
+}
+
+.main-content-area .main-content-heading{
+    text-align: center;
+    color: white;
+}
+
+#GA-heading{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+#GA-venue-heading{
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.countdown-timer p{
+    margin: 32px 0px 10px 0px ;
+    font-size: 20px;
+}
+
+.countdown-timer ul{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+}
+.countdown-timer ul li {
+    display: inline-block;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+  
+.countdown-timer ul li span {
+    display: block;
+    font-size: 36px;
+}
+  
+.countdown-timer {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(26, 25, 25, 0.699);
+    padding:20px 0px 20px 0px;
+}
+
+/* Register button style start*/
+.register-btn-area{
+    margin: 24px;
+    text-align: center;
+}
+
+.register-btn{
+    width: 50%;
+    height: 48px;
+    background: rgb(230, 225, 225);
+    border-radius: 4px;
+    border-style: none;
+}
+
+.register-btn a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(54, 52, 52);
+    text-shadow: 4px 2px 2px white;
+}
+/*register button stle end*/
+/*About event section style start*/
+
+.event-session{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.event-session i{
+    margin-top: 36px;
+    font-size: 6em !important;
+    color: #005091 !important;
+}
+
+.about-event-container .about-event-title h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.about-event-container .about-event-title p {
+    text-align: center;
+    
+}
+.about-event-container .event-row1 .event-session {
+    text-align: center !important;
+    margin: 0px auto !important;
+}
+.underline{
+    width: 120px;
+    height: 4px;
+    background-color: #005091;
+    margin: 2px auto;
+}
+
+.about-event-container .event-row1 #content-dds{
+    margin-top: 4px ;
+    text-align: center;
+    padding: 0px 20px;
+ }
+
+ .fa-inr{
+
+    margin-top: 36px;
+    font-size: 6em !important;
+    color: #005091 !important;
+ }
+  .event-registration{
+    margin: 16px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+
+ }
+ .about-event-container .event-row2 #content-fr{
+    margin-top: 4px ;
+    text-align: center;
+    padding: 0px 20px;
+ }
+ 
+ .fa-users{
+
+    margin-top: 36px;
+    font-size: 6em !important;
+    color: #005091 !important;
+ }
+  .event-discussion{
+    margin: 16px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+
+ }
+ .about-event-container .event-row3 #content-de{
+    margin-top: 4px ;
+    text-align: center;
+    padding: 0px 20px;
+ }
+
+ .agenda-heading h2{
+     margin-bottom: 2px;
+     padding-top: 20px;
+     letter-spacing: 2px;
+ }
+ .agenda-heading{
+     text-align: center;
+ }
+ .agenda-track-btn{
+     margin-top: 50px;
+     text-align: center;
+     
+
+ }
+ .agenda-track-btn button{
+     margin: 0px 12px;
+     width: 72px;
+     height: 28px;
+     background-color: #005091;
+     border-style: none;
+     color:white;
+    font-family: 'Lexend Deca', sans-serif;
+ }
+ 
+ .track1{
+     display: block;
+     
+ }
+ 
+ .track2{
+    display: none;
+    
+}
+
+.track3{
+    display: none;
+    
+}
+
+/** Timeline-styles **/
+
+
+.timeline{
+    background: rgb(247, 240, 240);
+    /*background-image: url('hyd-charmnr.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.664);*/
+    
+    width: 100%;
+  }
+  
+  
+  
+  
+  /* TIMELINE
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */  
+  .timeline ul {
+    padding: 50px 0;
+  }
+  
+  .timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background:rgb(95, 90, 90);
+  }
+  
+  .timeline ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+  }
+  
+  .timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    border: 4px solid #005091;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 31px -9px rgba(0,80,145,1);
+-moz-box-shadow: 0px 0px 31px -9px rgba(0,80,145,1);
+box-shadow: 0px 0px 31px -9px rgba(0,80,145,1);
+  }
+  
+  .timeline ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+  }
+  
+  .timeline ul li:nth-child(odd) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+  
+  .timeline ul li:nth-child(even) div {
+    left: -439px;
+  }
+  
+  .timeline ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  
+  .timeline img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  
+  /* EFFECTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  .timeline ul li::after {
+    transition: background .5s ease-in-out;
+  }
+  
+  .timeline ul li.in-view::after {
+    border: 6px solid #005091;
+    background-color:white;
+  }
+  
+  .timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  }
+  
+ 
+  
+  .timeline ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*speakers-section-styles*/
+
+#speakers-heading{
+    text-align: center;
+    margin: 28px 0px 8px 0px;
+}
+.speakers {
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+    
+  }
+  .speaker{
+      background-color: white;
+  }
+  .speaker .speaker-image{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0px auto;
+    
+  }
+
+  .speaker-main{
+      width: 100%;
+      height: 310px;
+  }
+  .info-speaker3{
+      height: 32px;
+      
+  }
+  
+  .speaker-info1 {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  
+  .info.active a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .linkedin-icon{
+      width: 20px;
+      height: 20px;
+      margin: 0 auto;
+
+  }
+
+  .info {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	width: 32px;
+	height: 32px;
+	background-size: cover;
+	transition: all 0.2s ease;
+    z-index: 0;
+}
+
+.info.active {
+	width: 100%;
+	height: 342px;
+	background: #0063A1;
+    transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+    border-radius: 0px;
+}
+
+.info i.block {
+	color: white;
+    display: block;
+}
+
+.speaker{
+    margin: 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.info-icon{
+    background-color: #0063A1;
+}
+.info-icon .fa-info {
+	padding: 8px;
+	cursor: pointer;
+	visibility: visible;
+    opacity: 1;
+    font-size: larger;
+	transition: visibility 0s, opacity 0.4s ease;
+}
+
+.info.active .fa-info {
+	visibility: hidden;
+ opacity: 0;
+ transition: visibility 0s, opacity 0.4s ease;
+}
+
+.info .fa-angle-down {
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.info.active .fa-angle-down {
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	visibility: visible;
+	position: relative;
+	
+}
+
+.social{
+    color: white;
+}
+
+.info p {
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+	font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+	text-align: center;
+    visibility: hidden;
+    display: none;
+    padding: 8px;
+}
+
+.info.active p {
+    visibility: visible;
+    display: block;
+}
+
+.info .link {
+	visibility: hidden;
+	margin: 24px 24px 0px 24px;
+	padding: 16px 4px 4px 4px;
+	cursor: pointer;
+	position: relative;
+
+}
+
+.info.active .link {
+	visibility: visible;
+}
+
+.contributors-heading{
+    margin: 28px 0px 20px 0px;
+    text-align: center;
+}
+
+.Contributors{
+    margin: 0px 25px;
+    text-align: center;
+}
+.Contributors div{
+    display: inline-block;
+    margin: 14px;
+    width: 114px;
+}
+
+.Contributors div img{
+    height: 84px;
+    width: 84px;
+}
+
+.Contributors div p{
+    margin: 8px auto;
+    width: 125px;
+}
+
+.venue-info{
+    height: 320px;
+    text-align: center;
+    color: white;
+    background-color: rgb(28, 151, 228);
+    padding: 28px 20px 20px 20px;
+    background-image: url(ValueMomentum-acquires-new-office-towers-in-Hyderabad-India.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.venue-info i{
+    font-size: 60px;
+}
+
+#event-venue-heading{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#event-location iframe{
+    margin: 8px 0px 0px 0px;
+    width: 100%;
+}
+
+.venue-info{
+    
+}
+
+    
+  /* GENERAL MEDIA QUERIES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  @media screen and (max-width: 900px) {
+    .timeline ul li div {
+      width: 250px;
+    }
+    .timeline ul li:nth-child(even) div {
+      left: -289px;
+      /*250+45-6*/
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .timeline ul li {
+      margin-left: 20px;
+      margin-right: 0px !important;
+    }
+    .timeline ul li div {
+      width: calc(100vw - 91px);
+    }
+    .timeline ul li:nth-child(even) div {
+      left: 45px;
+    }
+    .timeline ul li:nth-child(even) div::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #ffffff transparent transparent;
+    }
+  }
+ 
+
+ @media only screen and (min-width: 760px){
+
+    .agenda-heading{
+        margin-top: 400px;
+    }
+
+    .agenda-heading h2{
+        font-size: 36px;
+    }
+     .hero{
+         height: 860px;
+         
+     }
+     .header .menu-icon{
+         left: 90%;
+
+     }
+
+     .header .menu-icon .nav-icon{
+         height: 3px;
+         width: 32px;
+     }
+     .header .menu-icon .nav-icon:after{
+         top: -8px;
+     }
+     .header .menu-icon .nav-icon::before{
+         top: 8px;
+     }
+
+     .nav-background{
+         height: 80px;
+     }
+
+     .header ul{
+         margin-top:80px ;
+     }
+
+     .log-gab2020 img{
+         height: 68px;
+     }
+     .header ul li a {
+         font-size: 26px;
+     }
+
+     #GA-heading{
+         margin-top: 88px;
+         font-size: 48px;
+         text-shadow: 8px 4px 2px rgba(34, 32, 32,0.89);
+     }
+
+     #GA-venue-heading{
+         font-size:32px ;
+         margin-bottom: 48px;
+         text-shadow: 8px 4px 2px rgba(34, 32, 32,0.89);
+     }
+     .countdown-timer{
+         width: 90%;
+         background-color: rgba(26, 25, 25, 0.899)
+     }
+     .countdown-timer p{
+         font-size: 36px;
+     }
+
+     .countdown-timer ul{
+         margin-top: 20px;
+     }
+     .countdown-timer ul li{
+         font-size: 28px;
+         text-shadow: 8px 4px 0px black;
+     }
+
+     .register-btn{
+         height: 72px;
+     }
+     .register-btn a{
+         font-size: 28px;
+     }
+
+     .register-btn-area{
+         margin: 48px;
+     }
+
+     .about-event-container .about-event-title h2{
+         font-size: 36px;
+     }
+
+     .about-event-container .about-event-title p{
+         font-size: 22px;
+         padding: 8px;
+     }
+
+     .event-details{
+         display: flex;
+         margin: 0px auto;
+         width: 100%;
+     }
+
+     .event-details div{
+         width: 176px;
+         height: 176px;
+         margin: 0px auto;
+     }
+
+     .event-details div div{
+         margin: 0px;
+         text-align: left  !important;
+     }
+
+     .about-event-container .event-row2 .event-registration {
+        text-align: center !important;
+        margin: 0px auto !important;
+    }
+
+    .about-event-container .event-row3 .event-discussion {
+        text-align: center !important;
+        margin: 0px auto !important;
+    }
+
+    .event-details div div p{
+        word-spacing: 0px;
+    }
+
+    .agenda-track-btn button{
+        margin: 0px 12px;
+        width: 120px;
+        height: 40px;
+        background-color: #005091;
+        border-style: none;
+        color:white;
+       font-family: 'Lexend Deca', sans-serif;
+       font-size: 18px;
+    }
+    
+    .speakers{
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+    }
+   
+    .speaker{
+        display: inline-flex;
+        margin: 20px;
+        width: 300px;
+    }
+    .info{
+        display:none;
+        position: relative;
+        width: 32px;
+        height: 32px;
+        top: 300px;
+        right: 50%;
+        z-index: -1;
+        transition: all 10s;
+        background-color: tomato;
+    }
+    .info.active{
+        position: relative;
+        display: block;
+        top: 0px;
+        right: 0px;
+        z-index: 0;
+    }
+
+    #speakers-heading{
+        font-size: 36px;
+    }
+
+    #event-venue-heading{
+        font-size: 36px;
+    }
+
+
+ }
+
+ @media only screen and (min-width:1100px){
+
+    body{
+        font-family: 'Montserrat';
+    }
+    .hero{
+        background-image: url('hyd-charmnr.png');
+        border-bottom: 4px solid #005091;
+    } 
+    
+    .hero .header{
+        display: none;
+     }
+
+     .hero .nav-background{
+         display: none;
+     }
+
+
+
+     .navbar-container {
+         display: block;
+        text-align: right;	
+        padding: 10px 80px 10px 10px;
+        font-size: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        padding-top: 28px;
+        
+        
+        
+    }
+    
+    .navbar-container ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0;
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle;
+        
+    }
+    
+    .navbar-container ul li {
+        display: inline-block;
+        font-size: 16px;
+        margin-right:10px;
+    }
+    
+    .navbar-container ul li a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;	
+        font-size: 13px;
+        padding: 10px;
+        transition: color 0.5s;
+        font-weight :bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat' ;
+        text-shadow: 1px 4px 4px black;
+    }
+    
+    .navbar-container ul li .underline {
+        height: 3px;
+        background-color: transparent;
+        width: 0%;
+        transition: width 0.2s, background-color 0.5s;
+        margin: 0 auto;
+    }
+    
+    .navbar-container ul li.active-link .underline {
+        width: 100%;
+        background-color: #AC424E
+    }
+    
+    .navbar-container ul li:hover .underline {
+        background-color: #AC424E;
+        width: 100%;
+    }
+    
+    
+    .navbar-container ul li:active a {
+        transition: none;
+        color: rgb(66, 61, 61)
+    }
+    
+    .navbar-container ul li:active .underline {
+        transition: none;
+        background-color: rgba(255,255,255,0.76);
+    }
+
+    .gab-logo {
+        display: block;
+        margin: -16px 0px 0px 36px;
+        width: 200px;
+    }
+
+    .main-content-area .main-content-heading{
+        text-align: left;
+        margin-left: 36px ;
+    }
+
+    #GA-heading{
+        padding-left: 32px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        text-shadow: none;
+        letter-spacing: 2px;
+        font-size: 42px;
+        text-shadow: 2px 6px 2px black;
+    }
+
+    #GA-heading span{
+        display: block;
+    }
+
+    #GA-heading #Year{
+        font-size: 80px;
+        letter-spacing: 0px;
+        font-weight: bold;
+    }
+
+    #GA-venue-heading{
+        font-family: 'Montserrat';
+        text-shadow: none;
+        font-size: 42px;
+        text-shadow: 1px 4px 2px black;
+    }
+
+    .main-content-area{
+        width: 700px;
+    }
+
+    .countdown-timer{
+        font-family: 'Montserrat';
+        position: relative;
+        top: -420px;
+        left: 100px;
+        width: 640px;
+        height: 240px;
+        padding: 20px 30px;
+    }
+
+    .countdown-timer p{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 18px;
+    }
+
+    .countdown-timer ul li{
+        padding: 12px;
+        font-weight: bold;
+    }
+
+    .register-btn-area{
+        position: relative;
+        top: -300px;
+    }
+
+    .register-btn-area .register-btn{
+        width: 400px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+
+    }
+
+    .event-details{
+        margin: 20px auto;
+    }
+
+    .event-details div{
+        width: 300px;
+        height: 300px;
+    }
+
+    .event-session i{
+        font-size: 11em !important;
+        margin-top: 52px;
+    }
+    .fa-inr{
+        font-size: 11em !important;
+        margin-top: 52px;
+    }
+    .fa-users{
+        font-size: 11em !important;
+        margin-top: 52px;
+    }
+
+    
+ }
+
+ @media only screen and (min-width: 1400px){
+    #speakers-section{
+        padding: 20px 80px;
+    }
+}
+ @media only screen and (min-width:1800px){
+     #speakers-section{
+         padding: 20px 180px;
+     }
+    }
